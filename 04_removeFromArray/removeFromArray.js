@@ -1,5 +1,4 @@
-const removeFromArray = function (inputArray) {
-	console.log(typeOf(arguments));
+const removeFromArray = function (inputArray, ...args) {
 	let _tempArray = [];
 	inputArray.forEach((element) => {
 		if (!args.includes(element)) {
