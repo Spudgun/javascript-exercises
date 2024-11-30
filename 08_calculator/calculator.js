@@ -24,9 +24,17 @@ const multiply = function (array) {
 	});
 };
 
-const power = function (first, second) {};
+const power = function (first, second) {
+	return Math.pow(first, second);
+};
 
-const factorial = function (first, second) {};
+const factorial = function (n) {
+	let result = 1;
+	for (let i = n; i >= 1; i--) {
+		result *= i;
+	}
+	return result;
+};
 
 // Do not edit below this line
 module.exports = {
